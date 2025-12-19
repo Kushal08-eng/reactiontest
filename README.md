@@ -1,16 +1,20 @@
 # reactiontest
-The Reaction Test Game is a hardware-based project designed to measure a user’s reaction time. The system activates an LED after a random delay, and the user must press a push button as quickly as possible. The response time is then measured and evaluated.
-*Features*
+REACTION TEST GAME
 
-Random LED signal generation
+Overview
+This project is a Reaction Test Game designed to measure a user’s reaction time. The system turns on an LED after a random delay, and the user must press a push button as quickly as possible. The time difference between the signal and the response is calculated as the reaction time.
 
-User input through push button
+Features
 
-Reaction time measurement using timing logic
+Generates a random delay before the LED turns ON
 
-Simple and interactive gameplay
+Detects user input through a push button
 
-Circuit simulation using Tinkercad
+Measures reaction time using timing logic
+
+Simple and interactive hardware-based game
+
+Circuit designed and tested using Tinkercad
 
 Components Used
 
@@ -18,13 +22,13 @@ Arduino UNO
 
 LEDs
 
-Push Button
+Push button
 
 Resistors
 
 Buzzer
 
-Breadboard & Connecting Wires
+Breadboard and connecting wires
 
 Working Principle
 
@@ -34,31 +38,35 @@ An LED turns ON to signal the user.
 
 The user presses the button as fast as possible.
 
-The time difference between LED activation and button press is calculated as reaction time.
+The reaction time is calculated based on the delay between LED activation and button press.
 
-Feedback is provided through LED/Buzzer output.
+Feedback is provided using an LED or buzzer.
 
-Tools & Technologies
+Tools and Technologies
 
 Arduino IDE
 
-Tinkercad (Circuit Simulation)
+Tinkercad for circuit simulation
 
-Embedded C / Arduino Programming
+Embedded C / Arduino programming
 
 Applications
 
 Reaction time testing
 
-Human–machine interaction demonstrations
+Human–machine interaction demonstration
 
-Learning digital I/O and timing control
-
-Educational electronics projects
+Educational embedded systems project
 
 Future Improvements
 
-Display reaction time on LCD/OLED
+Display reaction time using an LCD or OLED
+
+Store and compare best reaction times
+
+Add multiple difficulty levels
+
+PC-based visualization using serial communication
 
 Store scores and show best reaction time
 
